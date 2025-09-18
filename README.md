@@ -45,7 +45,7 @@ Add to your Claude Desktop config file:
 }
 ```
 
-**Replace `http://your-server:8099` with your actual MCP server URL**
+**Replace `http://your-server::port` with your actual MCP server URL**
 
 ### 3. Restart Claude Desktop
 
