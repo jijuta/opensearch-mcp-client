@@ -1,0 +1,36 @@
+{
+  "name": "opensearch-mcp-client",
+  "version": "1.0.0",
+  "description": "Simple HTTP client to connect Claude Desktop to OpenSearch MCP servers",
+  "main": "index.js",
+  "bin": {
+    "opensearch-mcp-client": "index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "opensearch",
+    "mcp",
+    "claude",
+    "client",
+    "proxy",
+    "http"
+  ],
+  "author": "InBridge Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jijuta/opensearch-mcp-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jijuta/opensearch-mcp-client/issues"
+  },
+  "homepage": "https://github.com/jijuta/opensearch-mcp-client#readme"
+}
