@@ -38,7 +38,7 @@ Add to your Claude Desktop config file:
     "opensearch": {
       "command": "opensearch-mcp-client",
       "env": {
-        "MCP_SERVER_URL": "http://your-server:8099"
+        "MCP_SERVER_URL": "http://your-server:port"
       }
     }
   }
@@ -79,7 +79,7 @@ You need to set the server URL in your Claude Desktop configuration. See [Usage]
 ### Connection failed
 - Verify your MCP server is running
 - Check the URL format: `http://ip:port` or `https://domain:port`
-- Test connectivity: `curl http://your-server:8099/health`
+- Test connectivity: `curl http://your-server:port/health`
 
 ### Claude Desktop not recognizing
 - Check JSON config syntax with a JSON validator
